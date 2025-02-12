@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: "Smooch Sans", serif;
+}
+
+
+
+.main{
+    width: 100%;
+    background-image: url(OIP.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    height: 200px;
+  
+  }
+
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    height: 50px;
+align-items: center;
+padding: 5px;
+margin: auto;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul li a:hover{
+    color:red
+}
+
+.logo{
+    width: 100px;
+    margin: 10px;
+}
+
+.info{
+    margin-left: 8%;
+    margin-top: 30px;
+    
+}
+
+.info span{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: bolder;
+}
+pre{
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.image{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+}
+.image img{
+    height: 400px;
+    position: absolute;
+    left: 40%;
+    margin-top: 20px ;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+    filter: drop-shadow(2px 4px 6px black);
+    
+   
+}
+
+.image:hover .prsn{
+    left:55%
+   
+}
+
+.box{
+background-color: azure;
+margin-left: 7%;
+}
+.row img{
+    width: 400px;
+    margin: 5px;}
+.box img:hover{
+    scale: 1.05;
+}
+.h3{
+    text-align: center;
+    background-color: darkcyan;
+    color: aliceblue;
+}
+
+.row{
+    display: flex;
+    margin-top: 5px;
+}
+.col{width: 300px;
+height: 300px;
+border: 2px ridge cadetblue;
+margin: 20px;
+margin-left: 50px;
+background: linear-gradient(to top,rgb(111, 181, 184)50%,rgb(51, 17, 143)50%);
+background-size: 100% 200%;
+transition: all 1.2s;
+}
+.col:hover{
+    background-position: bottom;
+    box-shadow: 4px 6px 10px cadetblue;
+}
+.col img{
+    width: 300px;
+    margin-left: 100px;
+}
+.col h5{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    color: cadetblue;
+}
+.col p{
+    text-align: justify;
+    padding: 10px;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 5px;
+}
+.cv{
+    background-color: brown;
+    color: aliceblue;
+    padding: 5px;
+    width: 10px;
+    margin-left: 300px;
+    text-decoration: none;
+    border-radius: 20%;
+}
